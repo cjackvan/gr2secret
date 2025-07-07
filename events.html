@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listen</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="image-text-page">
+    <!-- Fixed image in the top-right corner -->
+    <img
+      src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/Screenshot%202025-01-08%20at%202.27.26%E2%80%AFPM.png?v=1736364459702"
+      alt="Your image"
+      class="fixed-top-right-image"
+    />
+
+    <div class="menu">
+      <!-- Back Button -->
+      <a href="index.html" class="back-button">GARCIA REGISTER</a>
+      <div class="dropdown">
+        <a href="gesture1.html" class="back-button">SHOP</a>
+        <div class="dropdown-content">
+          <a href="gesture1.html">GESTURE 1</a>
+          <!--           <a href="gesture1-2.html">FX UNIT</a>
+          <a href="gesture1-3.html">MERCH</a> -->
+        </div>
+      </div>
+      <a href="about.html" class="back-button">ABOUT</a>
+      <a href="listen.html" class="back-button">LISTEN</a>
+      <a href="events.html" class="back-button">EVENTS</a>
+    </div>
+
+    <div class="container">
+      <!-- Centered Content -->
+      <div class="content-wrapper">
+        <div class="text-block-mobile" style="padding-top: 30vh">
+          <h1>EVENTS</h1>
+
+          <p>Why we do what we do. Feel free to reach out with any ideas.</p>
+        </div>
+
+        <div class="image-block-product-mobile" id="imageBlock">
+          <div class="text-block-mobile" style="text-align: left">
+            <img
+              style="margin-top: 0px"
+              src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/tumblr_o2ngkzRA7I1v3bpldo1_1280.jpg?v=1731519719999"
+              alt="Sample Image"
+              class="listen_image_content"
+            />
+            <h1 style="text-align: left">EVENT TITLE</h1>
+            <p>
+              DESCRIPTION
+              <br /><br />
+              <a href="https://www.youtube.com/embed/tgbNymZ7vqY">RA</a>
+            </p>
+
+            <br /><br />
+            <img
+              style="margin-top: 0px"
+              src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/7d1b69b3-6679-45d4-a33c-11c5f1e6bd2e.image.png?v=1736273461486"
+              alt="Sample Image"
+              class="listen_image_content"
+            />
+            <h1 style="text-align: left">EVENT TITLE</h1>
+            <p>
+              DESCRIPTION
+              <br /><br />
+              <a href="https://www.youtube.com/embed/tgbNymZ7vqY">RA</a>
+            </p>
+            <br /><br />
+            <img
+              style="margin-top: 0px"
+              src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/7d1b69b3-6679-45d4-a33c-11c5f1e6bd2e.image.png?v=1736273461486"
+              alt="Sample Image"
+              class="listen_image_content"
+            />
+            <h1 style="text-align: left">EVENT TITLE</h1>
+            <p>
+              DESCRIPTION
+              <br /><br />
+              <a href="https://www.youtube.com/embed/tgbNymZ7vqY">RA</a>
+            </p>
+            <br /><br />
+          </div>
+        </div>
+        <!-- desktop stuff -->
+        <div class="text-block">
+          <h1>EVENTS</h1>
+
+          <p>Why we do what we do. Feel free to reach out with any ideas.</p>
+        </div>
+
+        <div class="image-block" id="imageBlock">
+          <img
+            style="margin-top: 0px"
+            src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/tumblr_o2ngfanNNb1v3bpldo1_1280.jpg?v=1731519709028"
+            alt="Sample Image"
+            class="listen_image_content"
+          />
+          <h1>EVENT TITLE</h1>
+          <p>
+            DESCRIPTIONS
+            <br /><br />
+            <a href="https://www.youtube.com/embed/tgbNymZ7vqY">RA</a>
+          </p>
+          <br /><br />
+          <img
+            style="margin-top: 190px"
+            src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/Screenshot%202024-11-14%20at%203.24.58%E2%80%AFPM.png?v=1731615904200"
+            alt="Sample Image"
+            class="listen_image_content"
+          />
+          <h1>EVENT TITLE</h1>
+          <p>
+            DESCRIPTIONS
+            <br /><br />
+            <a href="https://www.youtube.com/embed/tgbNymZ7vqY">RA</a>
+          </p>
+          <br /><br />
+          <img
+            style="margin-top: 190px"
+            src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/tumblr_o2ns6bjcaE1v3bpldo1_1280.jpg?v=1731519717188"
+            alt="Sample Image"
+            class="listen_image_content"
+          />
+          <h1>EVENT TITLE</h1>
+          <p>
+            DESCRIPTIONS
+            <br /><br />
+            <a href="https://www.youtube.com/embed/tgbNymZ7vqY">RA</a>
+          </p>
+          <br /><br />
+        </div>
+      </div>
+    </div>
+
+    <!-- Add JavaScript to control scroll position -->
+    <script>
+      window.addEventListener("load", function () {
+        const imageBlock = document.getElementById("imageBlock");
+
+        // Set the scroll position of the image block to 50% of the scrollable height
+        const scrollPercentage = 0.0; // 50% (0.5 means middle of the container)
+        const scrollHeight = imageBlock.scrollHeight - imageBlock.clientHeight;
+        const targetScrollPosition = scrollHeight * scrollPercentage;
+
+        imageBlock.scrollTop = targetScrollPosition;
+      });
+    </script>
+  </body>
+</html>
