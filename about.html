@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="image-text-page">
+    <!-- Fixed image in the top-right corner -->
+    <img
+      src="https://cdn.glitch.global/2a1e9de1-4fe9-468d-ab13-86826245d117/Screenshot%202025-01-08%20at%202.27.26%E2%80%AFPM.png?v=1736364459702"
+      alt="Your image"
+      class="fixed-top-right-image"
+    />
+
+    <div class="menu">
+      <!-- Back Button -->
+      <a href="index.html" class="back-button">GARCIA REGISTER</a>
+      <div class="dropdown">
+        <a href="gesture1.html" class="back-button">SHOP</a>
+        <div class="dropdown-content">
+          <a href="gesture1.html">GESTURE 1</a>
+          <!--           <a href="gesture1-2.html">FX UNIT</a>
+          <a href="gesture1-3.html">MERCH</a> -->
+        </div>
+      </div>
+      <a href="about.html" class="back-button">ABOUT</a>
+      <a href="listen.html" class="back-button">LISTEN</a>
+      <a href="events.html" class="back-button">EVENTS</a>
+    </div>
+
+    <div class="container">
+      <!-- Centered Content -->
+      <div class="content-wrapper">
+        <div class="text-block-mobile" style="padding-top: 30vh">
+          <h1>ABOUT</h1>
+          <p>
+            Garcia Register is a collaboration between Andrew Kilpatrick and
+            Charlie Van, based in Montreal QC and Vancouver BC.
+            <br /><br />
+            To reach out to Garcia Register, please contact
+            support@garciaregister.com
+          </p>
+        </div>
+        <div class="text-block">
+          <h1>ABOUT</h1>
+          <p>
+            Garcia Register is a collaboration between Andrew Kilpatrick and
+            Charlie Van, based in Montreal QC and Vancouver BC.
+            <br /><br />
+            To reach out to Garcia Register, please contact
+            support@garciaregister.com
+          </p>
+        </div>
+
+        <!--          <div class="image-block-static" id="imageBlock">
+          <img
+            src="https://cdn.glitch.me/2a1e9de1-4fe9-468d-ab13-86826245d117/GR%20image%203.png?v=1743600164315"
+            alt="Sample Image"
+            class="image-content"
+          />
+        </div>  -->
+      </div>
+    </div>
+
+    <!-- Add JavaScript to control scroll position -->
+    <script>
+      window.addEventListener("load", function () {
+        const imageBlock = document.getElementById("imageBlock");
+
+        // Set the scroll position of the image block to 50% of the scrollable height
+        const scrollPercentage = 0.35; // 50% (0.5 means middle of the container)
+        const scrollHeight = imageBlock.scrollHeight - imageBlock.clientHeight;
+        const targetScrollPosition = scrollHeight * scrollPercentage;
+
+        imageBlock.scrollTop = targetScrollPosition;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gesture 1</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="image-text-page">
+    <!-- Back Button -->
+    <a href="javascript:history.back()" class="back-button">Back</a>
+
+    <div class="container">
+      <!-- Centered Content -->
+      <div class="content-wrapper">
+        <div class="text-block">
+          <p>
+            GESTURE 1<br /><br />
+            The best mixer ever. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Proin velit elit, tempus quis ullamcorper ac,
+            mollis eget orci. Integer eleifend eu massa a interdum.
+            <br />
+            <br />
+            $2499.99
+            <br />
+            <br />
+            <!-- links -->
+            <a href="https://buy.stripe.com/test_aEU2aFgrbfAC7wkdQQ"
+              >PURCHASE</a
+            >
+            <br />
+            <br />
+            <a
+              href="https://cdn.glitch.global/614248de-7871-4fb1-8eeb-f0395b2e5f52/Final_Graphic_TT_ROUNDS_regular.jpg?v=1720142570127"
+              >MANUAL</a
+            >
+            <br />
+            <br />
+            <a
+              href="https://cdn.glitch.global/614248de-7871-4fb1-8eeb-f0395b2e5f52/Final_Graphic_TT_ROUNDS_regular.jpg?v=1720142570127"
+              >SPECS</a
+            >
+          </p>
+        </div>
+
+        <div class="image-block" id="imageBlock">
+          <img
+            style="margin-top: 190px"
+            src="https://cdn.glitch.global/614248de-7871-4fb1-8eeb-f0395b2e5f52/djmixerswirl.png?v=1718151892385"
+            alt="Sample Image"
+            class="image-content"
+          />
+          <br /><br />
+          <img
+            src="https://cdn.glitch.global/614248de-7871-4fb1-8eeb-f0395b2e5f52/Final_Graphic_TT_ROUNDS_regular.jpg?v=1720142570127"
+            alt="Sample Image"
+            class="image-content"
+          />
+
+          <br /><br />
+          <img
+            src="https://cdn.glitch.global/614248de-7871-4fb1-8eeb-f0395b2e5f52/a22a70d5-8377-44ae-b8cd-749873a60f54.image.png?v=1718146580675"
+            alt="Sample Image"
+            class="image-content"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Add JavaScript to control scroll position -->
+    <script>
+      window.addEventListener("load", function () {
+        const imageBlock = document.getElementById("imageBlock");
+
+        // Set the scroll position of the image block to 50% of the scrollable height
+        const scrollPercentage = 0.0; // 50% (0.5 means middle of the container)
+        const scrollHeight = imageBlock.scrollHeight - imageBlock.clientHeight;
+        const targetScrollPosition = scrollHeight * scrollPercentage;
+
+        imageBlock.scrollTop = targetScrollPosition;
+      });
+    </script>
+  </body>
+</html>
